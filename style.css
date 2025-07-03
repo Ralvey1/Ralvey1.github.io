@@ -6,6 +6,7 @@
     color: #333;
     background-color: #f4f4f4;
 }
+
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -14,49 +15,63 @@
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-h1,
+
+h1 {
+    font-size: 28px;
+    color: #007bff;
+}
+
 h2 {
+    font-size: 22px;
     color: #007bff;
-}
-.header {
-    text-align: center;
-}
-.header h1 {
-    margin: 10px 0;
-}
-.contact {
-    margin: 10px 0;
-    font-size: 14px;
-}
-.contact a {
-    color: #007bff;
-    text-decoration: none;
-}
-.section {
-    margin: 30px 0;
-    padding: 15px;
-}
-.section h2 {
     margin-bottom: 10px;
     border-bottom: 2px solid #007bff;
     padding-bottom: 5px;
 }
+
+h3 {
+    font-size: 18px;
+    color: #222;
+    margin: 0;
+}
+
+p, li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    margin: 10px 0;
+}
+
+.contact {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.section {
+    margin: 30px 0;
+    padding: 15px;
+}
+
 .item {
     margin-bottom: 15px;
 }
-.item h3 {
-    margin: 0;
-    font-size: 18px;
-    color: #222;
-}
-.item p {
-    margin: 5px 0;
-    font-size: 14px;
-}
+
 .skills ul {
     list-style: none;
     padding: 0;
 }
+
 .skills ul li {
     display: inline-block;
     background: #007bff;
@@ -67,9 +82,11 @@ h2 {
     cursor: pointer;
     transition: background 0.3s ease-in-out;
 }
+
 .skills ul li:hover {
     background: #0056b3;
 }
+
 @media (max-width: 600px) {
     h1 {
         font-size: 22px;
@@ -77,8 +94,10 @@ h2 {
     h2 {
         font-size: 18px;
     }
-    p,
-    li {
+    h3 {
+        font-size: 16px;
+    }
+    p, li {
         font-size: 13px;
     }
 }
